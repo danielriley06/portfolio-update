@@ -26,11 +26,22 @@
       "company": "UltraShipTMS",
       "position": "Logistics Technology Analyst",
       "website": "http://www.ultrashiptms.com/",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
+      "startDate": "2015-03-20",
+      "endDate": "2015-12-20",
       "summary": "Managed the YMS web application, including onboarding, change requests, roadmaps, and hardware.",
       "highlights": [
         "Managed the transition to an AWS implementation for image storage."
+      ]
+    },
+    {
+      "company": "Cornerstone Systems",
+      "position": "Pricing Analyst",
+      "website": "http://www.cornerstone-systems.com/",
+      "startDate": "2012-07-01",
+      "endDate": "2015-03-18",
+      "summary": "Handled pricing requests and bid process for top 5 accounts.",
+      "highlights": [
+        "Implemented changes to bid process to drastically cut time and increase revenue."
       ]
     }
   ],
@@ -59,7 +70,22 @@
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "Rails",
+        "Front-end frameworks",
+        "jQuery",
+        "GSAP",
+        "AJAX",
+        "OAuth",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Design",
+      "keywords": [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Inkscape"
       ]
     }
   ],
@@ -72,16 +98,25 @@
   "interests": [
     {
       "name": "Outdoors",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "keywords": []
+    },
+    {
+      "name": "Photography",
+      "keywords": []
+    },
+    {
+      "name": "Graphic Design",
+      "keywords": []
+    },
+    {
+      "name": "VR/AR",
+      "keywords": []
     }
   ],
   "references": [
     {
-      "name": "Availible upon request",
-      "reference": ""
+      "name": "",
+      "reference": "Availible upon request"
     }
   ]
 }
