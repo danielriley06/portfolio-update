@@ -1,0 +1,87 @@
+{
+  "basics": {
+    "name": "Daniel Riley",
+    "label": "Full Stack Developer",
+    "picture": "",
+    "email": "driley3@gmail.com",
+    "phone": "(901) 626-0345",
+    "website": "http://danielriley.tech",
+    "summary": "Recently finished the Flatiron School's Full Stack Developer program.",
+    "location": {
+      "address": "175 Main Street Apt B-Rt",
+      "postalCode": "NJ 07041",
+      "city": "Millburn",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "driley3",
+        "url": "https://www.linkedin.com/in/driley3"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "UltraShipTMS",
+      "position": "Logistics Technology Analyst",
+      "website": "http://piedpiper.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Managed the YMS web application, including onboarding, change requests, roadmaps, and hardware.",
+      "highlights": [
+        "Managed the transition to an AWS implementation for image storage."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "H.A.R.T",
+      "position": "Animal Rescue Team",
+      "website": "http://www.rescuegroup.org/hart/docs/AdoptionApplication.html",
+      "startDate": "2015-03-29",
+      "endDate": "2016-09-16",
+      "summary": "Assist with saving homeless animals."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Tennessee",
+      "area": "Supply Chain Management",
+      "studyType": "Bachelor",
+      "startDate": "2007-08-01",
+      "endDate": "2012-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Availible upon request",
+      "reference": ""
+    }
+  ]
+}

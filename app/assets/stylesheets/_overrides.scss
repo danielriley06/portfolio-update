@@ -1,12 +1,14 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'PT Sans', 'Work Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .navbar {
   display: none;
-  background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+  min-height: 80px;
+  background-color:#666;
+  background-color: rgba(0,0,0,0.6) !important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:hover, .nav-pills .nav-item.open .nav-link, .nav-pills .nav-item.open .nav-link:focus, .nav-pills .nav-item.open .nav-link:hover {
@@ -14,12 +16,21 @@ html, body {
 }
 
 section {
-    padding-top: 54px;
     height: 100%;
     width: 100%;
     position: relative;
     z-index: 20;
 
+}
+
+.btn-site {
+  color: #FFF;
+  background-color: #7c25f8;
+}
+
+.btn-site:hover {
+  color: #FFF;
+  background-color: #6207e3;
 }
 
 svg {
@@ -35,14 +46,41 @@ svg {
 
 
 #top {
-    padding-top: 0;
+    padding-top: 54px;
     overflow: hidden;
-    background: #D4E5FF;
+    background: linear-gradient(to bottom, #6cb2d4 0%,#1e528e 100%);
 }
 
-#portfolio {
-    background: #574E58;
+#portfolio1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #17301C;
     height:auto;
+}
+
+#portfolio2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+    background: #0B7A75;
+    height:auto;
+}
+
+#portfolio3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+    background: #8AA399;
+    height:auto;
+}
+
+#portfolio4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+    background: #070707;
+    height:auto;
+}
+
+.resume {
+  margin-top: 40px;
 }
 
 @media (max-width: 992px) {
@@ -118,11 +156,7 @@ svg {
 }
 
 @media (min-width: 800px) {
-  #about{
-  padding-top: 20px;
-  }
-
-  #about h3 {
+#about h3 {
     font-size: 2.8em;
     color: #8FDDA6;
     padding: 0 0 1em;
@@ -130,35 +164,52 @@ svg {
   }
 
   #about p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important;
     font-size: 2em;
   }
-  #about .row {
-    padding: 0 0 60px;
-  }
+
 }
 
-@media (min-width: 1200px) {
-  #about{
-  padding-top: 100px;
-  }
-
+@media (min-width: 1000px) {
   #about h3 {
-    font-size: 2.5em;
-    color: #8FDDA6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 !important;
+    font-size: 2.0em;
+    color: #484848;
     padding: 0 0 1em;
     margin: 0;
   }
 
   #about p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200 !important;
-    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-weight: 300 !important;
+    font-style: normal;
+    font-size: 1.25em;
 
   }
-  #about .row {
+  svg #about .row {
     padding: 0 0 5em;
+  }
+
+  #hill-1{
+    filter: url(#dropShadow);
+  }
+  #hill-2 {
+    filter: url(#dropShadow);
+  }
+  #hill-3{
+    filter: url(#dropShadow);
+  }
+  #cloud-1 {
+    filter: url(#dropShadow);
+  }
+  #cloud-2 {
+    filter: url(#dropShadow);
+  }
+  #sun {
+
   }
 
 }
@@ -167,7 +218,12 @@ svg {
 
 .card {
   overflow: hidden;
-
+  position: relative;
+  display: block;
+  margin-bottom: 0px;
+  background-color: #fff;
+  border-radius: 0px;
+  border: none;
 }
 
 .cardWrapper {
@@ -175,16 +231,16 @@ svg {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   float: left;
   overflow: hidden;
 }
 
 .cardFace {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   position: absolute;
   overflow: hidden;
 }
@@ -236,4 +292,8 @@ svg {
 .shadow {
     -webkit-filter: drop-shadow( -5px -5px 5px #000 );
             filter: drop-shadow( -5px -5px 5px #000 ); /* Same syntax as box-shadow */
+}
+
+.card-block {
+  display: none;
 }
