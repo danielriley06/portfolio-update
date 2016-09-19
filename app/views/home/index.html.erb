@@ -225,7 +225,7 @@ TweenMax.to(rays, 15, {rotation:360, transformOrigin:"50% 50%", ease:Linear.ease
 if (window.matchMedia('(max-device-width: 960px)').matches) {
   TweenMax.set(sun, {scale:5.8, x: 200, y: -1000, autoAlpha: 1});
   TweenMax.set(rays, {scale:5.4, x: 400, y: -1080, autoAlpha: 1});
-  TweenMax.set("#hill-2", {scale:10, x:-800});
+  TweenMax.set("#hill-2", {ease: Bounce.easeInOut, scale:10, x:-800});
   TweenMax.set("#cloud-1", {scale:4, x:400, y: -950});
   TweenMax.set("#cloud-2", {scale:4, x: -600, y: -1000});
   tlTop.to(sun, 1, {x: -300, autoAlpha: 1, force3D:true}, 0)
