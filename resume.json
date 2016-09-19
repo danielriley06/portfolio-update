@@ -6,7 +6,7 @@
     "email": "driley3@gmail.com",
     "phone": "(901) 626-0345",
     "website": "http://danielriley.tech",
-    "summary": "Recently finished the Flatiron School's Full Stack Developer program.",
+    "summary": "After working with closely with developers earlier in my career, it occurred to me that I was ready for a career change. I spent the past two years self-teaching and then enrolled in the Flatiron School's Full Stack Developer program. I am eagerly working daily towards mastering Node, React, and JavaScript, while improving upon my front-end and Ruby skills. I also like to use jQuery, Git, Docker, and SASS.",
     "location": {
       "address": "175 Main Street Apt B-Rt",
       "postalCode": "NJ 07041",
@@ -30,7 +30,8 @@
       "endDate": "2015-12-20",
       "summary": "Managed the YMS web application, including onboarding, change requests, roadmaps, and hardware.",
       "highlights": [
-        "Managed the transition to an AWS implementation for image storage."
+        "Managed the transition to an AWS implementation for image storage.",
+        "QA testing for all bug fixes and improvements"
       ]
     },
     {
@@ -43,16 +44,6 @@
       "highlights": [
         "Implemented changes to bid process to drastically cut time and increase revenue."
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "H.A.R.T",
-      "position": "Animal Rescue Team",
-      "website": "http://www.rescuegroup.org/hart/docs/AdoptionApplication.html",
-      "startDate": "2015-03-29",
-      "endDate": "2016-09-16",
-      "summary": "Assist with saving homeless animals."
     }
   ],
   "education": [
@@ -73,11 +64,14 @@
         "Javascript",
         "Rails",
         "Front-end frameworks",
+        "React",
         "jQuery",
+        "Docker",
         "GSAP",
         "AJAX",
         "OAuth",
-        "SQL"
+        "SQL",
+        "RSpec"
       ]
     },
     {
@@ -85,7 +79,7 @@
       "keywords": [
         "Adobe Photoshop",
         "Adobe Illustrator",
-        "Inkscape"
+        "Sketch"
       ]
     }
   ],
@@ -93,6 +87,16 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "H.A.R.T",
+      "position": "Animal Rescue Team",
+      "website": "http://www.rescuegroup.org/hart/docs/AdoptionApplication.html",
+      "startDate": "2015-03-29",
+      "endDate": "2016-09-16",
+      "summary": "Assist with saving homeless animals."
     }
   ],
   "interests": [
@@ -111,12 +115,6 @@
     {
       "name": "VR/AR",
       "keywords": []
-    }
-  ],
-  "references": [
-    {
-      "name": "",
-      "reference": "Availible upon request"
     }
   ]
 }
