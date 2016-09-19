@@ -230,7 +230,7 @@ if (window.matchMedia('(max-device-width: 960px)').matches) {
   TweenMax.set("#cloud-2", {scale:4, x: -600, y: -1000});
   tlTop.to(sun, 1, {x: -300, autoAlpha: 1, force3D:true}, 0)
   .to(rays, 1, {x: -350, autoAlpha: 1, force3D:true}, 0)
-  .to("#hill-2", 2, {ease: Bounce.easeInOut, y: -h*.4, autoAlpha: 1})
+  .to("#hill-2", 2, {ease: Bounce.easeOut, y: -h*.4, autoAlpha: 1})
   .to("#cloud-1", .5, {x:-200, autoAlpha: 1})
   .to("#cloud-2", .5, {x: -400, autoAlpha: 1});
 } else {
