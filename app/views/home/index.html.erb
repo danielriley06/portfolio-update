@@ -34,9 +34,9 @@
         </filter>
     </defs>
     <title>topScene</title>
-    <path id="hill-2" class="cls-1" d="M75.6,477.32C17.35,477.32-32.14,528.6-50.18,600H201.38C183.34,528.6,133.84,477.32,75.6,477.32Z" transform="translate(50.18 -54.03)" />
-    <path id="hill-3" class="cls-1" d="M208.16,477.32c-58.24,0-107.74,51.28-125.78,122.68H333.94C315.9,528.6,266.4,477.32,208.16,477.32Z" transform="translate(50.18 -54.03)" />
-    <path id="hill-1" class="cls-1" d="M556.35,503.6C393,503.6,260.6,546.76,260.6,600H852.11C852.11,546.76,719.69,503.6,556.35,503.6Z" transform="translate(50.18 -54.03)" />
+		<path id="hill-2" class="cls-1" d="M75.6,477.32C17.35,477.32-32.14,528.6-50.18,600H201.38C183.34,528.6,133.84,477.32,75.6,477.32Z" transform="translate(50.18 -54.03)" />
+		<path id="hill-3" class="cls-1" d="M208.16,477.32c-58.24,0-107.74,51.28-125.78,122.68H333.94C315.9,528.6,266.4,477.32,208.16,477.32Z" transform="translate(50.18 -54.03)" />
+		<path id="hill-1" class="cls-1" d="M556.35,503.6C393,503.6,260.6,546.76,260.6,600H852.11C852.11,546.76,719.69,503.6,556.35,503.6Z" transform="translate(50.18 -54.03)" />
     <path id="cloud-2" class="cls-2" d="M247.54,247.61a41.13,41.13,0,0,0-13.11,2.24c-11.2-19.61-31.57-32.67-54.85-32.67-22.89,0-43,12.71-54.27,31.77a41.2,41.2,0,0,0-9.74-1.35c-23.85,0-43.19,20.4-43.19,45.4H290.72C290.72,268,271.39,247.61,247.54,247.61Z" transform="translate(50.18 -54.03)" />
     <path id="cloud-1" class="cls-2" d="M772.53,342.93a41,41,0,0,0-12.16,1.79,60.23,60.23,0,0,0-101.22-.86,41.19,41.19,0,0,0-9-.93C628,342.93,610.06,360,610.06,382H812.59C812.59,360,794.65,342.93,772.53,342.93Z" transform="translate(50.18 -54.03)" />
     <circle id="sun" class="cls-3" cx="702.58" cy="82.11" r="53.81" />
@@ -45,8 +45,8 @@
 </section>
 <section id="about">
   <div class="container-fluid">
-    <div class="row flex-items-xs-middle flex-items-xs-center">
-      <div class="col-xs-12 col-md-6 col-lg-3">
+    <div class="row flex-items-xs-center flex-items-xs-middle">
+      <div class="col-xs-12 col-md-4 col-xl-2">
         <div id="wrap1" class="cardWrapper">
           <div class="circle">
             <img class="cardFace front" id="guitar1" src="<%= asset_path('laptop-about.png') %>" />
@@ -54,19 +54,19 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 col-lg-3">
-        <h3>Responsive Front-end Development</h3>
+      <div class="col-xs-12 col-md-8 col-lg-6 offset-lg-1">
+        <h2>Responsive Front-end Development</h2>
         <p id="quote">Above all else, I have a passion for good design with a focus on typography, responsive layouts, and animation and images that improve the user experience and provide the most impact.
         </p>
       </div>
     </div>
-    <div class="row flex-items-xs-middle flex-items-xs-center">
-      <div class="col-xs-12 col-md-6 col-lg-3">
-        <h3>It all starts on the backend.</h3>
+    <div class="row flex-items-xs-center flex-items-xs-middle">
+      <div class="col-xs-12 col-md-8 col-lg-6">
+        <h2>It all starts on the backend</h2>
         <p id="quote">Even with a passion for front-end design, I realize how important the backend is to provide an optimal user experience. DevOps and web performance optimizations are crucial at all stages of development.
         </p>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-md-4 col-xl-2">
         <div id="wrap2" class="cardWrapper">
           <div class="circle">
             <img class="cardFace front" id="guitar1" src="<%= asset_path('ps-icon.png') %>" />
@@ -76,11 +76,8 @@
       </div>
     </div>
     <div class="row flex-items-xs-bottom flex-items-xs-center">
-      <div class="col-xs-10 col-sm-6">
-        <h3>Check out my resume!</h3>
-        <p id="quote">Even with a passion for front-end design, I realize how important the backend is to provide an optimal user experience. DevOps and web performance optimizations are crucial at all stages of development.
-        </p>
-        <a href="https://registry.jsonresume.org/danielriley" class="btn btn-site btn-lgresume" role="button" target="_blank">View Resume</a>
+      <div class="col-xs-8 col-md-6">
+        <a href="https://registry.jsonresume.org/danielriley" class="btn btn-danger btn-block" role="button" target="_blank">Click to view my resume</a>
       </div>
     </div>
   </div>
@@ -237,18 +234,18 @@ if (window.matchMedia('(max-device-width: 960px)').matches) {
   .to("#cloud-1", .5, {x:-200, autoAlpha: 1})
   .to("#cloud-2", .5, {x: -400, autoAlpha: 1});
 } else {
-  TweenMax.set("#hill-1", {y: 200, scaleX: 2});
-  TweenMax.set("#hill-2", {y: 200, x:-30});
-  TweenMax.set("#hill-3", {y: 200});
+  TweenMax.set("#hill-1", {y: 200, x:-300, scaleX: 2, autoAlpha: 1});
+  TweenMax.set("#hill-2", {y: 200, x:10, autoAlpha: 1});
+  TweenMax.set("#hill-3", {y: 200, x:10, autoAlpha: 1});
   TweenMax.set("#cloud-1", {x: 200});
   TweenMax.set("#cloud-2", {x: -300});
 
   tlTop.to(sun, 1, {autoAlpha: 1, force3D:true})
-  .to("#hill-1", .5, {y: -50, autoAlpha: 1})
-  .to("#hill-2", .5, {y: -40, autoAlpha: 1})
-  .to("#hill-3", .5, {y: -30, autoAlpha: 1})
-  .to("#cloud-1", .5, {x: -100, autoAlpha: 1})
-  .to("#cloud-2", .5, {x:50, autoAlpha: 1});
+  .to("#hill-1", 3, {ease: Bounce.easeInOut, y: -50, force3D:true}, 0)
+  .to("#hill-2", 3, {ease: Bounce.easeInOut, y: -60, force3D:true}, 0)
+  .to("#hill-3", 3, {ease: Bounce.easeInOut, y: -50, force3D:true}, 0)
+  .to("#cloud-1", 1.5, {x: -60, autoAlpha: 1}, 2)
+  .to("#cloud-2", 1.5, {x:100, autoAlpha: 1}, 2);
 }
 
 $(function() {
@@ -279,8 +276,8 @@ $(function() {
     {
       currentCard = 0;
     }
-    TweenLite.to(cardsArray[currentCard], .5, {rotationX:-180, transformOrigin:"left 175px", transformStyle:"preserve-3d", ease: Power1.easeOut, onUpdate:updateCard});
-    TweenLite.to(cardsArray[currentCard], .5, {rotationX:-360, transformOrigin:"left 175px", transformStyle:"preserve-3d", ease: Power1.easeOut, onUpdate:updateCard, delay:pauseTime, onComplete:resetCard});
+    TweenLite.to(cardsArray[currentCard], .5, {rotationX:-180, transformOrigin:"left 150px", transformStyle:"preserve-3d", ease: Power1.easeOut, onUpdate:updateCard});
+    TweenLite.to(cardsArray[currentCard], .5, {rotationX:-360, transformOrigin:"left 150px", transformStyle:"preserve-3d", ease: Power1.easeOut, onUpdate:updateCard, delay:pauseTime, onComplete:resetCard});
   }
 
   function resetCard()

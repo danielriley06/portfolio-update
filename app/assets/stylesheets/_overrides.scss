@@ -158,6 +158,9 @@ svg {
   background-color: #fff;
   height:auto;
 }
+#about .row {
+  padding: 0 0 3em;
+}
 
 @media (min-width: 800px) {
 #about h3 {
@@ -193,13 +196,8 @@ svg {
     font-size: 1.25em;
 
   }
-  #about .row {
-    padding: 0 0 3em;
-  }
 
-  #hill-1{
-    filter: url(#dropShadow);
-  }
+
   #hill-2 {
     filter: url(#dropShadow);
   }
@@ -233,15 +231,15 @@ svg {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
 }
 
 .cardFace {
   border-radius: 50%;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   position: absolute;
   overflow: hidden;
 }
