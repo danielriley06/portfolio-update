@@ -45,39 +45,59 @@
 </section>
 <section id="about">
   <div class="container-fluid">
-    <div class="row flex-items-xs-center flex-items-xs-middle">
-      <div class="col-xs-12 col-md-4 col-xl-2">
-        <div id="wrap1" class="cardWrapper">
+    <div id="padrow" class="row flex-items-xs-center flex-items-xs-middle">
+      <div class="col-xs-12 col-lg-2">
+        <div id="wrap1" class="cardWrapper m-x-auto">
           <div class="circle">
             <img class="cardFace front" id="guitar1" src="<%= asset_path('laptop-about.png') %>" />
             <img class="cardFace back" id="guitar1" src="<%= asset_path('smartphone.png') %>" />
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-md-8 col-lg-6 offset-lg-1">
-        <h2>Responsive Front-end Development</h2>
-        <p id="quote">Above all else, I have a passion for good design with a focus on typography, responsive layouts,
-					and animation and images that improve the user experience and provide the most impact. Above all else, I have a passion for good design with a focus on typography, responsive layouts,
-						and animation and images that improve the user experience and provide the most impact.
+      <div class="col-xs-12 col-lg-5">
+        <h3 class="text-xs-center text-lg-right">I am always experimenting, always learning, and never bored</h3>
+        <p id="quote" class="text-xs-center text-lg-right">Above all else, I have a passion for good design with a focus on typography, responsive layouts,
+					and animation and images that improve the user experience and provide the most impact. Above all else, I have a passion for good design with a focus on typography,
+					responsive layouts, animation and images that improve the user experience and provide the most impact.
         </p>
       </div>
     </div>
-    <div class="row flex-items-xs-center flex-items-xs-middle">
-      <div class="col-xs-12 col-md-8 col-lg-6">
-        <h2>Humility, curiosity, and hard work</h2>
-        <p id="quote">Everyday is an opportunity to improve my skills and knowledge to match my passion for web development. Nothing is more exciting for me than coming up with an idea for a site, and working through the eventual issues and processes necessary to make those ideas a reality. Currently I am focusing on Node, React, and continuing to master javascript and ES6. 
-        </p>
-      </div>
-      <div class="col-xs-12 col-md-4 col-xl-2">
-        <div id="wrap2" class="cardWrapper">
+		<div class="breaker">
+			<div class="container">
+				<div class="row flex-items-xs-center">
+					<div class="col-md-4">
+						<div class="line"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+    <div id="padrow" class="row flex-items-xs-center flex-items-xs-middle">
+			<div class="col-xs-12 col-lg-2 push-lg-5">
+        <div id="wrap2" class="cardWrapper m-x-auto">
           <div class="circle">
             <img class="cardFace front" id="guitar1" src="<%= asset_path('ps-icon.png') %>" />
             <img class="cardFace back" id="guitar1" src="<%= asset_path('ai-icon.png') %>" />
           </div>
         </div>
       </div>
+      <div class="col-xs-12 col-lg-5 pull-lg-2">
+        <h3 class="text-xs-center text-lg-left">Humility, curiosity, and hard work</h3>
+        <p id="quote" class="text-xs-center text-lg-left">Everyday is an opportunity to improve my skills and knowledge to match my passion for web development.
+					Nothing is more exciting for me than coming up with an idea for a site, and working through the eventual issues and
+					processes necessary to make those ideas a reality. Currently I am focusing on Node, React, and continuing to master javascript and ES6.
+        </p>
+      </div>
     </div>
-    <div class="row flex-items-xs-bottom flex-items-xs-center">
+		<div class="breaker">
+			<div class="container">
+				<div class="row flex-items-xs-center">
+					<div class="col-md-4">
+						<div class="line"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+    <div id="padrow" class="row flex-items-xs-bottom flex-items-xs-center">
       <div class="col-xs-8 col-md-6">
         <a href="https://registry.jsonresume.org/danielriley" class="btn btn-site btn-danger btn-block" role="button" target="_blank">Click to view my resume</a>
       </div>

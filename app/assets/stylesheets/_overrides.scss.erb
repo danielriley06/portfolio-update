@@ -156,10 +156,9 @@ svg {
   padding: 0 0 3em;
 }
 
-@media (min-width: 800px) {
 #about h3 {
-    font-size: 2.8em;
-    color: #8FDDA6;
+    font-size: 2.5em;
+    color: #484848;
     padding: 0 0 1em;
     margin: 0;
   }
@@ -167,10 +166,10 @@ svg {
   #about p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300 !important;
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
-  #about .row {
+  #about #padrow {
     padding: 5em 0 5em 0;
   }
 
@@ -191,9 +190,7 @@ svg {
     font-size: 2em;
   }
 
-}
-
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
   #about h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500 !important;
@@ -229,6 +226,12 @@ svg {
 
   }
 
+  .btn-site {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important;
+    font-size: 1.25em;
+  }
+
 }
 
 //About Animation
@@ -253,8 +256,7 @@ svg {
 
 .cardFace {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 100%;
   position: absolute;
   overflow: hidden;
 }
@@ -310,4 +312,10 @@ svg {
 
 .card-block {
   display: none;
+}
+
+.breaker .line {
+    background-image: image-url('line-bg.png');
+    height: 6px;
+    width: 100%;
 }
