@@ -6,7 +6,7 @@
     "email": "driley3@gmail.com",
     "phone": "(901) 626-0345",
     "website": "http://danielriley.tech",
-    "summary": "After working with closely with developers earlier in my career, it occurred to me that I was ready for a career change. I spent the past two years self-teaching and then enrolled in the Flatiron School's Full Stack Developer program. I am eagerly working daily towards mastering Node, React, and JavaScript, while improving upon my front-end and Ruby skills. I also like to use jQuery, Git, Docker, and SASS.",
+    "summary": "After working with closely with developers earlier in my career, it occurred to me that I was ready for a career change. I spent the past two years self-teaching and then enrolled in the Flatiron School's Full Stack Developer program. I am eagerly working daily towards mastering Node, React, and JavaScript, while improving upon my front-end and Ruby skills. I recently completed a React-Redux application served by a Rails API that utilizes Webpack, Babel, ImmutableJS, Lodash, Material-UI components, and ChartJS.",
     "location": {
       "address": "175 Main Street Apt B-Rt",
       "postalCode": "NJ 07041",
@@ -22,6 +22,13 @@
     ]
   },
   "work": [
+    {
+      "company": "Freelance",
+      "position": "Content Writer & Web Development",
+      "startDate": "2016-01-01",
+      "endDate": "2016-11-04",
+      "summary": "Content writing for two seperate companies, and part-time freelance development for FreeBox."
+    },
     {
       "company": "UltraShipTMS",
       "position": "Logistics Technology Analyst",
@@ -53,6 +60,12 @@
       "studyType": "Bachelor",
       "startDate": "2007-08-01",
       "endDate": "2012-05-01"
+    },
+    {
+      "institution": "Flatiron School",
+      "area": "Fullstack Web Development Program",
+      "startDate": "2016-04-01",
+      "endDate": "2016-08-01"
     }
   ],
   "skills": [
@@ -63,13 +76,16 @@
         "CSS",
         "Javascript",
         "Rails",
-        "Front-end frameworks",
         "React",
-        "jQuery",
+        "Redux",
+        "Webpack",
+        "GraphQL",
+        "Front-end frameworks (Bootstrap 3/4, Material-UI, etc.)",
         "Docker",
         "GSAP",
         "AJAX",
         "OAuth",
+        "JWT",
         "SQL",
         "RSpec"
       ]
